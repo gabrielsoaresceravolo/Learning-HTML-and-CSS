@@ -1,0 +1,81 @@
+#paragraph1 
+{
+    color:red;
+}
+
+/* ==================================== */
+
+#table1
+{
+    width:80%;
+}
+
+/* ==================================== */
+
+.borderStyle
+{
+    border: 1px solid black;
+}
+
+/* ==================================== */
+
+.styleDiv1
+{
+    background-color:#FFF4A3;
+}
+.styleDiv2
+{
+    background-color:#FFC0C7;
+}
+.styleDiv3
+{
+    background-color:#D9EEE1;
+}
+
+/* ==================================== */
+
+#iframeStyle
+{
+    border:none;
+}
+
+/* ==================================== */
+
+#imageFlowers
+{
+    width:auto;
+}
+
+/* ==================================== */
+
+#codeCMD
+{
+    background-color: black; color: greenyellow;
+}
+
+/* ==================================== */
+
+#selectOptions
+{
+    width: 60%;
+}
+
+/* ==================================== */
+
+#svgPolygon
+{
+    fill:lime;
+    stroke:purple;
+    stroke-width:5;
+    fill-rule:evenodd;
+}
+
+#svgRECT
+{
+    fill:red;
+    stroke:black;
+    stroke-width:5;
+    opacity:0.5;
+}
+
+/* ==================================== */

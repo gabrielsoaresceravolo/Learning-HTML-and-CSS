@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <title>Page Title</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+
+    <body>
+
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+
+        <hr>
+
+            <p>This is a paragraph</p>
+            <p id="paragraph1">This is another paragraph</p>
+            <p>This is a <br> paragraph with a line break.</p>
+            <p title="I'm a tooltip">This is a paragraph</p>
+            <a href="https://www.youtube.com">Visit Youtube</a>
+
+        <hr>
+
+            <img src="data:image/png;base64,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" 
+            alt="W3Schools.jpg" width="200" height="200">
+
+        <hr>
+
+            <pre>
+
+<b> Bold text </b>
+
+<strong> Important text </strong>
+
+<i> Italic text </strong>
+
+<em> Emphasized text </em>
+
+<mark> Marked text </mark>
+
+<small> Smaller text </small>
+
+<del> Deleted text </del>
+
+<ins> Inserted text </ins>
+
+<sub> Subscript text </sub>
+
+<sup> Superscript text </sup>
+
+            </pre>
+
+        <hr>
+
+            <p>Here is a quote from WWF's website:</p>
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+            </blockquote>
+
+        <hr>
+
+            <p>WWF's goal is to: 
+                <q>Build a future where people live in harmony with nature.</q>
+            </p>
+
+        <hr>
+
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+        <hr>
+
+        <address>
+            Written by John Doe<br>
+            Visit us at:<br>
+            Example.com<br>
+            Box 564, Disneyland<br>
+            USA
+        </address>
+
+        <hr>
+
+            <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+        <hr>
+
+            <bdo dir="rtl">This text will be written from right to left</bdo>
+
+        <hr>
+
+            <pre>
+
+<a href="https://www.w3schools.com/" target="_blank">Opens the document in a new window or tab</a>
+
+<a href="https://www.w3schools.com/" target="_self">Default. Opens the document in the same window/tab as it was clicked</a>
+
+<a href="https://www.w3schools.com/" target="_parent">Opens the document in the parent frame</a>
+
+<a href="https://www.w3schools.com/" target="_top">Opens the document in the full body of the window</a>
+
+            </pre>
+
+        <hr>
+
+            <p><a href="html_images.asp">HTML Images</a></p>
+
+        <hr>
+
+            <p><a href="#C20">Jump to Final Chapter</a></p>
+            
+            <h2 id="C1">Chapter 1</h2>
+            <h2>Chapter 2</h2>
+            <h2>Chapter 3</h2>
+            <h2>Chapter 4</h2>
+            <h2>Chapter 5</h2>
+            <h2>Chapter 6</h2>
+            <h2>Chapter 7</h2>
+            <h2>Chapter 8</h2>
+            <h2>Chapter 9</h2>
+            <h2>Chapter 10</h2>
+            <h2>Chapter 11</h2>
+            <h2>Chapter 12</h2>
+            <h2>Chapter 13</h2>
+            <h2>Chapter 14</h2>
+            <h2>Chapter 15</h2>
+            <h2>Chapter 16</h2>
+            <h2>Chapter 17</h2>
+            <h2>Chapter 18</h2>
+            <h2>Chapter 19</h2>
+            <h2 id="C20">Chapter 20</h2>
+
+            <p><a href="#C1">Jump to First Chapter</a></p>
+
+        <hr>
+
+            <img src="https://t.ctcdn.com.br/5o4OadjGXMXf-FdLAKOUROkS_SU=/640x360/smart/i470845.png" alt="Apps" usemap="#APPsMAP">
+
+            <map name="APPsMAP">
+                <area shape="rect" coords="33, 105, 177, 253" href="Tinder.html">
+                <area shape="rect" coords="246, 108, 393, 253" href="OKC.html">
+                <area shape="rect" coords="461, 105, 607, 251" href="AppAmarelo.html">
+            </map>
+
+            <!--
+                rect - defines a rectangular region
+                circle - defines a circular region
+                poly - defines a polygonal region
+                default - defines the entire region
+            -->
+
+        <hr>
+
+            <picture>
+                <source media="(min-width: 650px)" srcset="data:image/png;base64,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">
+                <source media="(min-width: 465px)" srcset="data:image/png;base64,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">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0-w5t6VySmJ5w-RryPevdGdKXZbv1LKpc_cvPSTtzg&s">
+            </picture>
+
+        <hr>
+
+        <style>
+
+            table, th, td {
+                    border:1px solid black;
+                    border-collapse: collapse;
+            }
+
+        </style>
+
+            <table id="table1">
+                <tr>
+                    <th>Company</th>
+                    <th>Contact</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>Alfreds</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                </tr>
+                <tr>
+                    <td>Moctezuma</td>
+                    <td>Francisco Chang</td>
+                    <td>Mexico</td>
+                </tr>
+            </table>
+
+        <hr>
+
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+
+            <dl>
+                <dt>Coffee</dt>
+                    <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                    <dd>- white cold drink</dd>
+            </dl>
+
+        <hr>
+
+            <p class="borderStyle">Hello World</p>
+            <div class="borderStyle">Hello World</div>
+            
+            <p>The P and the DIV elements are both block elements, and they will always start on a new line and take up the full width available (stretches out to the left and right as far as it can).</p>
+
+            <p>This is an inline span <span class="borderStyle">Hello World</span> element inside a paragraph.</p>
+
+            <p>The SPAN element is an inline element, and will not start on a new line and only takes up as much width as necessary.</p>
+
+        <hr>
+
+            <div class="styleDiv1">
+                <h2>London</h2>
+                <p>London is the capital city of England.</p>
+                <p>London has over 13 million inhabitants.</p>
+            </div>
+            
+            <div class="styleDiv2">
+                <h2>Oslo</h2>
+                <p>Oslo is the capital city of Norway.</p>
+                <p>Oslo has over 600.000 inhabitants.</p>
+            </div>
+            
+            <div class="styleDiv3">
+                <h2>Rome</h2>
+                <p>Rome is the capital city of Italy.</p>
+                <p>Rome has almost 3 million inhabitants.</p>
+            </div>
+
+        <hr>
+
+            <style>
+
+                div.mycontainer {
+                width:100%;
+                overflow:auto;
+                }
+
+                div.mycontainer div {
+                width:33%;  
+                float:left;
+                }
+
+            </style>
+
+            <div class="mycontainer">
+
+                <div class="styleDiv1">
+                  <h2>London</h2>
+                  <p>London is the capital city of England.</p>
+                  <p>London has over 13 million inhabitants.</p>
+                </div>
+                
+                <div class="styleDiv2">
+                  <h2>Oslo</h2>
+                  <p>Oslo is the capital city of Norway.</p>
+                  <p>Oslo has over 600.000 inhabitants.</p>
+                </div>
+                
+                <div class="styleDiv3">
+                  <h2>Rome</h2>
+                  <p>Rome is the capital city of Italy.</p>
+                  <p>Rome has almost 3 million inhabitants.</p>
+                </div>
+              
+              </div>
+
+        <hr>
+
+            <iframe src="Introduction.html" height="200" width="300" title="Iframe Example"></iframe>
+            <iframe src="Introduction.html" id="iframeStyle" title="Iframe Example"></iframe>
+
+        <hr>
+
+            <h1>My First JavaScript</h1>
+
+            <button type="button"onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.
+            </button>
+
+            <p id="demo"></p>
+
+        <hr>
+
+            <style>
+
+                * 
+                {
+                box-sizing: border-box;
+                }
+                
+                body 
+                {
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                /* Style the header */
+                header 
+                {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+                }
+                
+                /* Create two columns/boxes that floats next to each other */
+                nav 
+                {
+                float: left;
+                width: 30%;
+                height: 300px; /* only for demonstration, should be removed */
+                background: #ccc;
+                padding: 20px;
+                }
+                
+                /* Style the list inside the menu */
+                nav ul 
+                {
+                list-style-type: none;
+                padding: 0;
+                }
+                
+                article 
+                {
+                float: left;
+                padding: 20px;
+                width: 70%;
+                background-color: #f1f1f1;
+                height: 300px; /* only for demonstration, should be removed */
+                }
+                
+                /* Clear floats after the columns */
+                section::after 
+                {
+                content: "";
+                display: table;
+                clear: both;
+                }
+                
+                /* Style the footer */
+                footer 
+                {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+                }
+                
+                /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+                @media (max-width: 600px) 
+                {
+                nav, article 
+                {
+                    width: 100%;
+                    height: auto;
+                }
+                }
+
+            </style>
+
+            <header>
+                <h2>Cities</h2>
+            </header>
+            
+            <section>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">London</a></li>
+                        <li><a href="#">Paris</a></li>
+                        <li><a href="#">Tokyo</a></li>
+                    </ul>
+                </nav>
+                
+                <article>
+                    <h1>London</h1>
+                        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+                        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+                </article>
+
+            </section>
+            
+            <footer>
+                <p>Footer</p>
+            </footer>
+
+        <hr>
+
+            <picture>
+                <source srcset="https://www.w3schools.com/html/img_flowers.jpg" media="(max-width: 600px)">
+                <source srcset="https://www.w3schools.com/html/flowers.jpg" media="(max-width: 1500px)">
+                <source srcset="https://www.w3schools.com/html/img_flowers.jpg">
+                <img src="https://www.w3schools.com/html/img_flowers.jpg" alt="Flowers" id="imageFlowers">
+            </picture>
+
+        <hr>
+
+            <div id="codeCMD">
+                <pre>
+                    <code>
+
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Molestias mollitia facere perferendis! 
+            Vel animi odio deserunt deleniti nam soluta debitis placeat, quo doloribus minus ab non! 
+                Laudantium itaque alias est.
+
+                    </code>
+                </pre>
+            </div>
+
+        <hr>
+
+            <pre>
+    <input type="text">	       Displays a single-line text input field
+    <input type="radio">	                               Displays a radio button (for selecting one of many choices)
+    <input type="checkbox">	                               Displays a checkbox (for selecting zero or more of many choices)
+    <input type="submit">	                       Displays a submit button (for submitting the form)
+    <input type="button">                                 Displays a clickable button
+            </pre>
+
+        <hr>
+
+            <form>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </form>
+
+            <br><br>
+
+            <form action="/action_page.php">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label>
+            </form>
+
+            <br><br>
+
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="ValueName"><br>
+
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="ValueLastName">
+            </form>
+
+            <br><br>
+
+            <form action="action.php">
+                <label for="cars">Choose a car:</label>
+
+                <select id="cars" name="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi" selected>Audi</option>
+                </select>
+            </form>
+
+            <br><br>
+
+            <form action="action.php">
+                <textarea name="message" rows="10" cols="30">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+
+Dignissimos, cumque rerum! At impedit, laboriosam, quam distinctio doloremque magni cum animi quaerat incidunt blanditiis consequuntur officiis similique? 
+
+Molestiae ea ratione accusamus?
+                </textarea>
+            </form>
+
+            <br><br>
+
+            <form action="action.php">
+                <fieldset>
+
+                    <legend>Personalia:</legend>
+
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="John"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                    <input type="submit" value="Submit">
+
+                </fieldset>
+            </form>
+
+            <br><br>
+
+            <form action="/action_page.php">
+                <input list="browsers" name="browser">
+
+                <datalist id="browsers">
+                  <option value="Edge">
+                  <option value="Firefox">
+                  <option value="Chrome">
+                  <option value="Opera">
+                  <option value="Safari">
+                </datalist>
+            </form>
+
+            <br><br>
+
+            <form action="action.php">
+                <select id="cars" name="cars" size="4" id="selectOptions" multiple>
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="fiat" selected>Fiat</option>
+                  <option value="audi">Audi</option>
+                </select>
+            </form>
+
+            <br><br>
+
+            <form action="action.php" oninput="x.value=parseInt(a.value)">
+                
+                0
+                    <input type="range" id="a" name="a" value="50">
+                100 = <output name="x" for="a"></output>
+                    
+            </form>
+
+            <hr>
+         
+                <input type="file"> <br>
+                <input type="color"> <br>
+                <input type="date"> <br>
+                <input type="datetime-local"> <br>
+                <input type="month"> <br>
+                <input type="week"> <br>
+                <input type="time"> <br>
+                <input type="password">
+        
+            <hr>
+
+                <svg width="300" height="200">
+                    <polygon points="100,10 40,198 190,78 10,78 160,198" id="svgPolygon" />
+                </svg>
+
+                <br><br>
+
+                <svg height="130" width="500">
+                    <defs>
+                      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:rgb(35, 7, 88);stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:rgb(22, 21, 65);stop-opacity:1" />
+                      </linearGradient>
+                    </defs>
+
+                    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+                    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">PHP</text>
+                </svg>
+
+                <br><br>
+
+                <svg width="400" height="180">
+                    <rect x="50" y="20" rx="20" ry="20" width="150" height="150" id="svgRECT" />
+                </svg>
+
+            <hr>
+
+                <video width="400" controls>
+                    <source src="./img/PINGU.mp4" type="video/mp4">
+                </video>
+
+                <br><br>
+
+                <audio controls>
+                    <source src="./img/PINGU.mp4" type="audio/mpeg">
+                </audio>
+
+                <!--<video autoplay muted>-->
+
+            <hr>
+
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                </iframe>
+
+    </body>
+</html>
